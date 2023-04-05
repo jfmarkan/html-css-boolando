@@ -104,8 +104,12 @@ div.product div.picture{
     position:relative;
 }
 
-.picture:hover>img.visible{
+.picture:hover img.visible{
     display: none;
+}
+
+.picture:hover img.invisible{
+    display: block;
 }
 
 div.product img{
