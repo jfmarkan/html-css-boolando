@@ -178,6 +178,7 @@ div.description{
 
 /*FOOTER*/
 footer{
+    padding: 1rem 0;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -185,4 +186,34 @@ footer{
 
 .bg-dark-grey{
     background-color: #1a1a1a;
+}
+
+.sm-links{
+    font-size: small;
+    padding: 0 1rem;;
+}
+
+
+
+.footer-left{
+    flex-basis: 70%;
+}
+
+.footer-right{
+    flex-basis: 30%;
+    justify-content: end;
+}
+
+.social-media i{
+    justify-content: space-between;
+}
+
+footer ul{
+    padding-top: 0.5rem;;
+}
+
+footer li{
+    font-size: smaller;
+    padding:0;
+    margin-right: 3rem;;
 }
