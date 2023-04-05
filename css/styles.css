@@ -96,11 +96,12 @@ div.product{
     background-color: #ff6900;
 }
 
-div.product div.graphic-content{
-    position: absolute;
+div.product div.picture{
+    position:relative;
 }
 
 div.product img{
+    position: absolute;
     width: 100%;
 }
 
@@ -115,7 +116,7 @@ div.product span.fav{
 }
 
 div.product div.indicators{
-    position:absolute;
+    position: absolute;
     top: 90%;
     left:0;
     color: #FFF;
