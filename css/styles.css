@@ -42,7 +42,7 @@ li{
     color: #FFF;
 }
 
-li:hover{
+header li:hover{
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px 0px;
 }
@@ -178,7 +178,7 @@ div.description{
 
 /*FOOTER*/
 footer{
-    padding: 1rem 0;
+    padding: 2rem 0;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -189,11 +189,10 @@ footer{
 }
 
 .sm-links{
+    text-align: center;
     font-size: small;
     padding: 0 1rem;;
 }
-
-
 
 .footer-left{
     flex-basis: 70%;
@@ -208,12 +207,9 @@ footer{
     justify-content: space-between;
 }
 
-footer ul{
-    padding-top: 0.5rem;;
-}
-
 footer li{
     font-size: smaller;
-    padding:0;
+    padding: 1rem 0;
     margin-right: 3rem;;
 }
+
