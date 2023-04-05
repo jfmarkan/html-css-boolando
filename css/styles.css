@@ -6,3 +6,55 @@
 }
 
 /* STYLES */
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-orange{
+    background-color: #ff6900;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px 0px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 1rem;
+    color: #FFF;
+}
+
+.toolbar-navigation,
+.toolbar-buttons{
+    flex-basis: 25%;
+}
+
+.toolbar-center{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.toolbar-buttons{
+    text-align: right;
+}
+
+.logo{
+    height: 30px;
+}
+
+header div.flex{
+    align-items: center;
+}
+
+.bg-darg-grey{
+    background-color: #1a1a1a;
+}
