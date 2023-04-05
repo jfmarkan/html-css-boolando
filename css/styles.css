@@ -8,6 +8,7 @@
 /* STYLES */
 body{
     font-family: Roboto, sans-serif;
+    color: #FFF;
 }
 
 .flex{
@@ -31,6 +32,11 @@ ul{
 li{
     padding: 1rem;
     color: #FFF;
+}
+
+li:hover{
+    padding-top: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px 0px;
 }
 
 .toolbar-navigation,
