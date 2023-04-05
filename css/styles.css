@@ -76,7 +76,7 @@ main{
 }
 
 .visible{
-    display: inline;
+    display: block;
 }
 
 .invisible{
@@ -91,19 +91,22 @@ div.row{
 div.product{
     position: relative;
     width: calc((100% / 3) - 50px);
-    text-align: center ;
+    text-align: center;
     margin-bottom: 2rem;
-    background-color: #ff6900;
 }
 
 div.product div.picture{
     position:relative;
 }
 
+div.product img:hover{
+    display: calc();
+}
+
 div.product img{
-    position: absolute;
     width: 100%;
 }
+
 
 div.product span.fav{
     position: absolute;
@@ -113,6 +116,10 @@ div.product span.fav{
     height: 33px;
     background-color: #FFF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+div.product span.fav:hover{
+    background-color: red;
 }
 
 div.product div.indicators{
@@ -145,13 +152,14 @@ div.description{
 
 .item-name{
     text-transform: uppercase;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
 .sale{
     color: red;
-    font-size:small;
-    font-weight: 500;
+    font-size:medium;
+    font-weight: 700;
 }
 
 .fullprice{
